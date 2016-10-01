@@ -1,0 +1,7 @@
+#!/bin/sh
+while true
+do
+python weibo_spider.py
+python pymysql.py
+rm -rf /tmp/tmp*
+done
